@@ -3,4 +3,12 @@ name = "rust-clean-architecture"
 version = "0.1.0"
 edition = "2024"
 
+[[bin]]
+name = "web"
+path = "src/cmd/web/main.rs"
+
+[[bin]]
+name = "worker"
+path = "src/cmd/worker/main.rs"
+
 [dependencies]
