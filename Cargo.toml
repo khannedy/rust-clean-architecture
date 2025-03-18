@@ -5,10 +5,10 @@ edition = "2024"
 
 [[bin]]
 name = "web"
-path = "src/cmd/web/main.rs"
+path = "src/web.rs"
 
 [[bin]]
 name = "worker"
-path = "src/cmd/worker/main.rs"
+path = "src/worker.rs"
 
 [dependencies]
