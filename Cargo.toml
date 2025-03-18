@@ -12,3 +12,6 @@ name = "worker"
 path = "src/worker.rs"
 
 [dependencies]
+chrono = "0.4.40"
+sqlx = { version = "0.8.3", features = ["runtime-tokio", "chrono", "postgres"] }
+tokio = { version = "1.44.1", features = ["full"] }
